@@ -54,7 +54,7 @@ function getRandomHidingSpot() {
     return hidingPlaces[index];
     // return that random hiding place string
 }
-console.log(getRandomHidingSpot())
+
 function handleGuess(userGuess, correctSpot) {
     // first, right after clicking, we need to remove the emoiji face from the previous hiding place that way we don't end up with more than one emoji face
     shedContainer.classList.remove('face');
